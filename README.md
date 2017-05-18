@@ -1,18 +1,21 @@
-# 机器学习
+# 1. 机器学习
 
-## 1.postive and unlabeled data问题
+## 1.1. postive and unlabeled data问题
 
-1.1 [conversion delay](http://www0.cs.ucl.ac.uk/staff/w.zhang/rtb-papers/delayed-feedback.pdf)使得negative label不一定真的是negative的，论文通过对conversion delay建模，提出的DFM(Delayed Feedback Model)模型可以理论上获得更准的cvr预估结果，而且可以使用SGD算法求解，实用性很强。
+* [conversion delay](http://www0.cs.ucl.ac.uk/staff/w.zhang/rtb-papers/delayed-feedback.pdf)使得negative label不一定真的是negative的，论文通过对conversion delay建模，提出的DFM(Delayed Feedback Model)模型可以理论上获得更准的cvr预估结果，而且可以使用SGD算法求解，实用性很强。
 
-## 2. position bias问题
+## 1.2. position bias问题
 
-1.1 
-1.2 
+* 2012年yahoo的paper[Position-Normalized Click Prediction in Search Advertising](https://pdfs.semanticscholar.org/5c53/c7101b530eae80417beeba16684d789056f2.pdf),
 
+# 2. 推荐算法
 
+## 2.1 矩阵分解
 
-# 面试
+* Koren在2009年提出的[Matrix Factorization模型](https://datajobs.com/data-science-repo/Recommender-Systems-%5BNetflix%5D.pdf)相比于协同过滤CF算法，具有三个优势：1）更容易引入更多信号；2）可扩展性强，也就是可并行化学习；3）准确率比CF更高。几个boosting的tricks：1）with bias，2）通过引入implicit feedback改进explicit feedback效果，这在目标数据稀疏的情况下会卓有成效，3）考虑时间因素，2012年Koren公开了如何考虑时间因素的[paper](https://pdfs.semanticscholar.org/8451/c2812a1476d3e13f2a509139322cc0adb1a2.pdf)，但是有点晦涩，没有仔细看，实际工业应用中，该环节是非常重要的一个feature，待回头仔细研究。
 
-## 如何面试深度学习候选人
+# 3.面试
 
-[如果你是面试官，你怎么去判断一个面试者的深度学习水平？](https://www.zhihu.com/question/41233373)
+## 3.1 如何面试深度学习候选人
+
+* [如果你是面试官，你怎么去判断一个面试者的深度学习水平？](https://www.zhihu.com/question/41233373)
