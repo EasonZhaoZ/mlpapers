@@ -6,7 +6,7 @@
 
 ## 1.2. position bias问题
 
-* 2012年yahoo的paper[Position-Normalized Click Prediction in Search Advertising](https://pdfs.semanticscholar.org/5c53/c7101b530eae80417beeba16684d789056f2.pdf), 从用户终端收集到的数据，一方面好广告的位置更加靠前，而好位置的ctr又天然偏高。论文提出factor model对位置和广告相关性分开建模，通过模拟数据验证理论上可以得到更加准确的ctr预估结果。
+* 2012年微软的paper[Position-Normalized Click Prediction in Search Advertising](https://pdfs.semanticscholar.org/5c53/c7101b530eae80417beeba16684d789056f2.pdf), 从用户终端收集到的数据，一方面好广告的位置更加靠前，而好位置的ctr又天然偏高。论文提出factor model对位置和广告相关性分开建模，通过模拟数据验证理论上可以得到更加准确的ctr预估结果。
 
 # 2. 推荐算法
 
